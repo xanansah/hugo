@@ -31,9 +31,13 @@ fields:
   name: categories
   label: Categories
   description: The categories this guide falls into.
+  default:
+  - Credit Cards
 - type: tag_list
   name: tags
   label: Tags
   description: The tags relevant to this guide.
+  default:
+  - Credit Cards
 pages:
 - content/credit-cards/sixteen.md
