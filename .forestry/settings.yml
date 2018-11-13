@@ -14,21 +14,29 @@ sections:
   label: Free Credit Report
   create: all
   match: "**/*"
+  templates:
+  - credit-report-guide
 - type: directory
   path: content/mortgages
   label: Mortgages
   create: all
   match: "**/*"
+  templates:
+  - mortgages-guide
 - type: directory
   path: content/credit-cards
   label: Credit Cards
   create: all
   match: "**/*"
+  templates:
+  - credit-cards-guide
 - type: directory
   path: content/loans
   label: Loans
   create: all
   match: "**/*"
+  templates:
+  - loans-guide
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
