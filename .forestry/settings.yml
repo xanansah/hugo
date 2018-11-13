@@ -21,7 +21,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/credit-cards
-  label: Credit cards
+  label: Credit Cards
   create: all
   match: "**/*"
 - type: directory
