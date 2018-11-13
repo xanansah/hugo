@@ -7,3 +7,34 @@ paginatePath = "guides"
 [ taxonomies ]
   tag = "tags"
   category = "categories"
+
+[ menu ]
+  [[ menu.main ]]
+    name = "Guides Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+
+  [[ menu.main ]]
+    name = "Credit Report"
+    weight = 2
+    identifier = "free-credit-report"
+    url = "/free-credit-report/"
+
+  [[ menu.main ]]
+    name = "Credit Cards"
+    weight = 3
+    identifier = "credit-cards"
+    url = "/credit-cards/"
+
+  [[ menu.main ]]
+    name = "Loans"
+    weight = 4
+    identifier = "loans"
+    url = "/loans/"
+
+  [[ menu.main ]]
+    name = "Mortgages"
+    weight = 5
+    identifier = "mortgages"
+    url = "/mortgages/"
