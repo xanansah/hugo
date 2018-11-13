@@ -3,18 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>{{ .Site.Title }} | Mortgages Guides</title>
   </head>
   <body>
-  {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
-  {{ .Content }}
+  {{ partial "nav" . }}
 
-  <ul>
-    <li><a href="/">Guides Home</li>
-    {{ range .Site.Sections.ByWeight }}
-    <li><a href="{{ .URL }}">{{ replace .Title "Guides" "" }}</a></li>
-    {{ end }}
-  </ul>
+  {{ .Content }}
 
   {{ $paginator := .Paginate (where .Pages "Type" "mortgages") }}
   {{ range $paginator.Pages }}
