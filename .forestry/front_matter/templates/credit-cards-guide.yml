@@ -35,3 +35,5 @@ fields:
   name: tags
   label: Tags
   description: The tags relevant to this guide.
+pages:
+- content/credit-cards/sixteen.md
