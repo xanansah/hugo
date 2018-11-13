@@ -23,6 +23,7 @@ fields:
   name: author_name
   label: Author Name
   description: The name of the author of the guide.
+  default: TotallyMoney
 - type: text
   name: author_title
   label: Author Job Title
