@@ -6,14 +6,7 @@
      <title>{{ .Site.Title }} | {{ .Page.Title }}</title>
 </head>
 <body>
-     {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
-
-     <ul>
-        <li><a href="/">Guides Home</li>
-       {{ range .Site.Sections.ByWeight }}
-        <li><a href="{{ .URL }}">{{ replace .Title "Guides" "" }}</a></li>
-       {{ end }}
-     </ul>
+    {{ partial "nav" . }}
 
      <div style="margin:25px;">
           {{if .Params.service }}<p>{{ .Params.Service }}</p>{{ end }}
