@@ -40,3 +40,5 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Loans
+pages:
+- content/loans/lima.md
