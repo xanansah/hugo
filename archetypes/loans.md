@@ -2,8 +2,8 @@
 service: "Loans"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author_name: "Alex Owusu-Ansah"
-author_title: "Developer"
+author_name: "TotallyMoney"
+author_title: ""
 categories: [ "Loans" ]
 tags: [ "Loans" ]
 draft: true
