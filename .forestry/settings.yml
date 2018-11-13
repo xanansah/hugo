@@ -11,7 +11,7 @@ sections:
   match: "*"
 - type: directory
   path: content/free-credit-report
-  label: Free credit report
+  label: Free Credit Report
   create: all
   match: "**/*"
 - type: directory
