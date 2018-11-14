@@ -40,3 +40,8 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Credit Report
+- type: include
+  name: seo
+  label: SEO
+  description: Search engine optimisation configuration for this TotallyMoney guide.
+  template: seo
