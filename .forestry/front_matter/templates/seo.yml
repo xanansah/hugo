@@ -16,3 +16,4 @@ fields:
     name: twitter
     label: Twitter Tags
     template: twitter-tags
+  description: Search engine optimisation configuration for this TotallyMoney guide.
