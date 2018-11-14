@@ -41,4 +41,5 @@ fields:
   default:
   - Loans
 pages:
+- content/loans/mike.md
 - content/loans/lima.md
