@@ -7,3 +7,14 @@ fields:
   description: Twitter-specific tags needed to populate media-rich snippets in tweets.
   name: twitter
   label: Twitter Tags
+  fields:
+  - type: text
+    name: twitter_card
+    label: Twitter Card
+    description: The card type, which will be one of “summary”, “summary_large_image”,
+      “app”, or “player”.
+  - type: text
+    label: Twitter Site
+    name: twitter_site
+    description: "@username for the website used in the card footer."
+    default: "@TotallyMoney"
