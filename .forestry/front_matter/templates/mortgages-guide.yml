@@ -7,6 +7,7 @@ fields:
   name: seo
   label: SEO
   template: seo
+  description: Search engine optimisation configuration for this TotallyMoney guide.
 - type: text
   name: service
   label: Service
