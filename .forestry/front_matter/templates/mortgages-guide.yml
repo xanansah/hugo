@@ -40,3 +40,7 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Mortgages
+- type: include
+  name: seo
+  label: SEO
+  template: seo
