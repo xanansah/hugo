@@ -44,3 +44,5 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Mortgages
+pages:
+- content/mortgages/kigali.md
