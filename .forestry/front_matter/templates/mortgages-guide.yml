@@ -3,6 +3,10 @@ label: Mortgages Guide
 hide_body: false
 is_partial: false
 fields:
+- type: include
+  name: seo
+  label: SEO
+  template: seo
 - type: text
   name: service
   label: Service
@@ -40,7 +44,3 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Mortgages
-- type: include
-  name: seo
-  label: SEO
-  template: seo
