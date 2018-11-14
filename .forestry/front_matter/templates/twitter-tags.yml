@@ -1,0 +1,9 @@
+---
+label: Twitter Tags
+hide_body: false
+is_partial: true
+fields:
+- type: field_group
+  description: Twitter-specific tags needed to populate media-rich snippets in tweets.
+  name: twitter
+  label: Twitter Tags
