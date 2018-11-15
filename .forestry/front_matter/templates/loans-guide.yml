@@ -3,6 +3,10 @@ label: Loans Guide
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: canonical
+  label: Canonical
+  description: Search engine friendly URL. The URL that you want visitors to see.
 - type: include
   name: seo
   label: SEO
