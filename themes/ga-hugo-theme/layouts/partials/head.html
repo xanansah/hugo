@@ -11,7 +11,7 @@
   <!-- Open Graph data -->
   <meta property="og:locale" content="{{ if isset .Params "og_locale" }}{{ .Params.og_locale }}{{ else }}en-GB{{ end }}" />
   <meta property="og:type" content="{{ if isset .Params "og_type" }}{{ .Params.og_type }}{{ else }}article{{ end }}" />
-  <meta property="og:title" content="{{ if isset .Params "og_title" }}{{ .Params.og_title }}{{ else if and (not (isset .Params "og_title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+  <meta property="og:title" content="{{ if isset .Params.seo.og "og_title" }}{{ .Params.og_title }}{{ else if and (not (isset .Params "og_title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
   <meta property="og:url" content="{{ if isset .Params "og_url" }}{{ .Params.og_url }}{{ else if and (not (isset .Params "og_url")) (isset .Page "URL") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
   <meta property="og:description" content="{{ if isset .Params "og_description" }}{{ .Params.og_description }}{{ else if and (not (isset .Params "og_description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
   {{/* <meta property="og:image" content="{{ page.banner_image | absolute_url }}" /> */}}
