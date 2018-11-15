@@ -45,3 +45,5 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Credit Report
+pages:
+- content/free-credit-report/cabbage.md
