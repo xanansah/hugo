@@ -1,4 +1,5 @@
 ---
+canonical: {{ .Canonical }}
 service: "Credit Cards"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}

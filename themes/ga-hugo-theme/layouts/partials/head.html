@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, ,initial-scale=1, user-scalable=no">
+  {{/* <link rel="icon" type="image/ico" href="{{ "/img/favicon.png" | absolute_url }}" /> */}}
+
+  <!-- SEO -->
+  <title>{{ .Site.Title }} - {{ .Page.Title }}</title>
+  <meta name="description" content="{{ if isset .Page "description" }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+  <link rel="canonical" href="{{ if isset .Params "canonical" }}{{ .Params.Canonical }}{{ else if and (not (isset .Params "canonical")) (isset .Page "url") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
+  <!-- Open Graph data -->
+  <meta property="og:locale" content="{{ if isset .Params "og_locale" }}{{ .Params.og_locale }}{{ else }}en-GB{{ end }}" />
+  <meta property="og:type" content="{{ if isset .Params "og_type" }}{{ .Params.og_type }}{{ else }}article{{ end }}" />
+  <meta property="og:title" content="{{ if isset .Params "og_title" }}{{ .Params.og_title }}{{ else if and (not (isset .Params "og_title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+  <meta property="og:url" content="{{ if isset .Params "og_url" }}{{ .Params.og_url }}{{ else if and (not (isset .Params "og_url")) (isset .Page "URL") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
+  <meta property="og:description" content="{{ if isset .Params "og_description" }}{{ .Params.og_description }}{{ else if and (not (isset .Params "og_description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+  {{/* <meta property="og:image" content="{{ page.banner_image | absolute_url }}" /> */}}
+  {{/* <meta property="og:image:secure_url" content="{% if page.banner_image and page.banner_image != "" %}{{ .page.banner_image.path | absolute_url }}{% endif %}" /> */}}
+  <meta property="og:site_name" content="{{ if isset .Params "og_site_name" }}{{ .Params.og_site_name }}{{ else }}TotallyMoney{{ end }}" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="{{ if isset .Params "twitter_card" }}{{ .Params.twitter_card }}{{ else }}summary{{ end }}" />
+  <meta name="twitter:site" content="{{ if isset .Params "twitter_site" }}{{ .Params.twitter_site }}{{ else }}@TotallyMoney{{ end }}" />
+  <!-- / SEO Optimisation -->
+</head>

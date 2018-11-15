@@ -4,6 +4,7 @@ title = "TotallyMoney"
 theme = "ga-hugo-theme"
 paginate = 3
 paginatePath = "guides"
+
 [ taxonomies ]
   tag = "tags"
   category = "categories"
@@ -38,3 +39,6 @@ paginatePath = "guides"
     weight = 5
     identifier = "mortgages"
     url = "/mortgages/"
+
+[ params ]
+  description = "Take control with access to your full credit report. No credit card needed. See the best credit offers you could get on credit cards, loans &amp; mortgages."
