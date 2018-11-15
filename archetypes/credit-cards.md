@@ -1,5 +1,8 @@
 ---
 canonical: {{ .Canonical }}
+seo:
+  og:
+    og_title: {{ .seo.og.og_title }}
 service: "Credit Cards"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
