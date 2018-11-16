@@ -25,3 +25,6 @@
   <meta name="twitter:site" content="{{ if isset .Params "twitter_site" }}{{ .Params.twitter_site }}{{ else }}@TotallyMoney{{ end }}" />
   <!-- / SEO Optimisation -->
 </head>
+{{ range $.Params }}
+  <p>{{ . }}</p>
+{{ end }}
