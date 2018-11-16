@@ -4,8 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: canonical
+  description: Search engine friendly URL. The URL that you want visitors to see.
   label: Canonical
+  name: canonical
 - type: include
   name: seo
   label: SEO

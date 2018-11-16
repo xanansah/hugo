@@ -3,6 +3,10 @@ label: Credit Report Guide
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  description: Search engine friendly URL. The URL that you want visitors to see.
+  label: Canonical
+  name: canonical
 - type: include
   name: seo
   label: SEO

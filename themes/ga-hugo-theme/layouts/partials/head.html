@@ -12,7 +12,7 @@
   <meta property="og:locale" content="{{ if isset .Params.seo.og "locale" }}{{ .Params.seo.og.locale }}{{ else }}en-GB{{ end }}" />
   <meta property="og:type" content="{{ if isset .Params.seo.og "type" }}{{ .Params.seo.og.type }}{{ else }}article{{ end }}" />
   <meta property="og:title" content="{{ if isset .Params.seo.og "title" }}{{ .Params.seo.og.title }}{{ else if and (not (isset .Params.seo.og "title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-  <meta property="og:url" content="{{ if isset .Params.seo.og "url" }}{{ .Params.seo.og.url }}{{ else if and (not (isset .Params.seo.og "url")) (isset .Page "URL") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
+  <meta property="og:url" content="{{ if isset .Params.seo.og "url" }}{{ .Params.seo.og.url }}{{ else if and (not (isset .Params.seo.og "url")) (isset .Page "Permalink") }}{{ .Page.Permalink | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
   <meta property="og:description" content="{{ if isset .Params.seo.og "description" }}{{ .Params.seo.og.description }}{{ else if and (not (isset .Params.seo.og "description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
   {{/* <meta property="og:image" content="{{ page.banner_image | absolute_url }}" /> */}}
   {{/* <meta property="og:image:secure_url" content="{% if page.banner_image and page.banner_image != "" %}{{ .page.banner_image.path | absolute_url }}{% endif %}" /> */}}
