@@ -11,7 +11,7 @@ seo:
     card: {{ .seo.twitter.card }}
     site: {{ .seo.twitter.site }}
 canonical: {{ .Canonical }}
-service: "Credit Report"
+service: "Free Credit Report"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author_name: "TotallyMoney"
