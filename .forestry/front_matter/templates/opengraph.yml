@@ -21,11 +21,13 @@ fields:
     label: Open Graph Type
     description: The object type which best describes this guide.
     default: article
+    hidden: true
   - type: text
     name: site_name
     label: Open Graph Site Name
     description: The name which should be displayed for the overall site.
     default: TotallyMoney
+    hidden: true
   - type: text
     name: title
     label: Open Graph Title
