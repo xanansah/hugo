@@ -11,46 +11,46 @@ fields:
     to become a rich object in a social graph.
   fields:
   - type: text
-    name: og_locale
+    name: locale
     label: Open Graph Locale
     description: The locale the guide is available in.
     hidden: true
     default: en-GB
   - type: text
-    name: og_type
+    name: type
     label: Open Graph Type
     description: The object type which best describes this guide.
     default: article
   - type: text
-    name: og_site_name
+    name: site_name
     label: Open Graph Site Name
     description: The name which should be displayed for the overall site.
     default: TotallyMoney
   - type: text
-    name: og_title
+    name: title
     label: Open Graph Title
     description: The title of the guide as it should appear.
   - type: text
-    name: og_description
+    name: description
     label: Open Graph Description
     description: A one to two sentence description of this guide.
   - type: text
-    name: og_image_secure_url
+    name: image_secure_url
     label: Open Graph Image Secure Url
     description: An alternate url to use if a webpage requires HTTPS.
   - type: text
-    name: og_image_width
+    name: image_width
     label: Open Graph Image Width
     description: The number of pixels wide.
   - type: text
-    name: og_height
-    label: Open Graph Height
+    name: image_height
+    label: Open Graph Image Height
     description: The number of pixels high.
   - type: text
-    name: og_image_alt
+    name: image_alt
     label: Open Graph Image Alternate Text
     description: A description of what is in the image (not a caption).
   - type: text
     label: Open Graph Image Type
-    name: og_image_type
+    name: image_type
     description: The MIME type for this image; e.g. "png", "jpeg", "gif" etc.
