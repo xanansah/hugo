@@ -29,7 +29,7 @@
   <p>{{ . }}</p>
 {{ end }}
 
-{{ range $key, $value := $.Params }}
+{{ range $key, $value := $.Params.seo }}
    {{ $key }} -  {{ $value }} <br>
 {{ end }}
 
