@@ -9,40 +9,16 @@
   <meta name="description" content="{{ if isset .Page "description" }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
   <link rel="canonical" href="{{ if isset .Params "canonical" }}{{ .Params.Canonical }}{{ else if and (not (isset .Params "canonical")) (isset .Page "url") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
   <!-- Open Graph data -->
-  {{/* <div>
-    {{ if isset .Params "og_title" }}{{ .Params.og_locale }}{{ end }}
-  </div> */}}
-  <meta property="og:locale" content="{{ if isset .Params "og_locale" }}{{ .Params.og_locale }}{{ else }}en-GB{{ end }}" />
-  <meta property="og:type" content="{{ if isset .Params "og_type" }}{{ .Params.og_type }}{{ else }}article{{ end }}" />
-  <meta property="og:title" content="{{ if isset .Params.seo.og "og_title" }}{{ .Params.seo.og.og_title }}{{ else if and (not (isset .Params.seo.og "og_title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-  <meta property="og:url" content="{{ if isset .Params "og_url" }}{{ .Params.og_url }}{{ else if and (not (isset .Params "og_url")) (isset .Page "URL") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
-  <meta property="og:description" content="{{ if isset .Params "og_description" }}{{ .Params.og_description }}{{ else if and (not (isset .Params "og_description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+  <meta property="og:locale" content="{{ if isset .Params.seo.og "locale" }}{{ .Params.seo.og.locale }}{{ else }}en-GB{{ end }}" />
+  <meta property="og:type" content="{{ if isset .Params.seo.og "type" }}{{ .Params.seo.og.type }}{{ else }}article{{ end }}" />
+  <meta property="og:title" content="{{ if isset .Params.seo.og "title" }}{{ .Params.seo.og.title }}{{ else if and (not (isset .Params.seo.og "title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+  <meta property="og:url" content="{{ if isset .Params.seo.og "url" }}{{ .Params.seo.og.url }}{{ else if and (not (isset .Params.seo.og "url")) (isset .Page "URL") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" />
+  <meta property="og:description" content="{{ if isset .Params.seo.og "description" }}{{ .Params.seo.og.description }}{{ else if and (not (isset .Params.seo.og "description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
   {{/* <meta property="og:image" content="{{ page.banner_image | absolute_url }}" /> */}}
   {{/* <meta property="og:image:secure_url" content="{% if page.banner_image and page.banner_image != "" %}{{ .page.banner_image.path | absolute_url }}{% endif %}" /> */}}
-  <meta property="og:site_name" content="{{ if isset .Params "og_site_name" }}{{ .Params.og_site_name }}{{ else }}TotallyMoney{{ end }}" />
+  <meta property="og:site_name" content="{{ if isset .Params.seo.og "site_name" }}{{ .Params.seo.og.site_name }}{{ else }}TotallyMoney{{ end }}" />
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="{{ if isset .Params "twitter_card" }}{{ .Params.twitter_card }}{{ else }}summary{{ end }}" />
-  <meta name="twitter:site" content="{{ if isset .Params "twitter_site" }}{{ .Params.twitter_site }}{{ else }}@TotallyMoney{{ end }}" />
+  <meta name="twitter:card" content="{{ if isset .Params.seo.twitter "card" }}{{ .Params.seo.twitter.card }}{{ else }}summary{{ end }}" />
+  <meta name="twitter:site" content="{{ if isset .Params.seo.twitter "site" }}{{ .Params.seo.twitter.site }}{{ else }}@TotallyMoney{{ end }}" />
   <!-- / SEO Optimisation -->
 </head>
-{{ range $.Params }}
-  <p>{{ . }}</p>
-{{ end }}
-
-{{ range $key, $value := $.Params.seo.og }}
-   {{ $key }} - {{ $value }}<br>
-{{ end }}
-
-{{/* {{ range $key, $value := $.Params.seo }}
-  {{ if eq $key "mortgages" }}
-    {{ range $value.Pages | first 3 }}
-      <li>
-        <div style="border: 1px solid black; margin:10px; padding:10px; ">
-          <p style="font-size:18px;">{{ .Params.Service }}</p>
-          <div style="font-size:20px;"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
-          <div style="color:grey; font-size:16px;">{{ dateFormat "January 2, 2006" .Date }}</div>
-        </div>
-      </li>
-    {{ end }}
-  {{ end }}
-{{ end }} */}}
