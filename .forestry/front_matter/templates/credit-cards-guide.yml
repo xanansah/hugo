@@ -50,4 +50,5 @@ fields:
   default:
   - Credit Cards
 pages:
+- content/credit-cards/eighteen.md
 - content/credit-cards/sixteen.md
