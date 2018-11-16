@@ -11,6 +11,11 @@ tags:
 seo:
   og:
     og_title: Whatever
+    type: article
+    site_name: TotallyMoney
+    title: Whatever
+    description: This is whatever we say it is, and if it wasn't then why would we
+      say it was?
 draft: true
 
 ---
