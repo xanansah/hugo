@@ -28,3 +28,21 @@
 {{ range $.Params }}
   <p>{{ . }}</p>
 {{ end }}
+
+{{ range $key, $value := $.Params }}
+   {{ $.Param $key }} -  {{ $.Param $value }} <br>
+{{ end }}
+
+{{/* {{ range $key, $value := $.Params.seo }}
+  {{ if eq $key "mortgages" }}
+    {{ range $value.Pages | first 3 }}
+      <li>
+        <div style="border: 1px solid black; margin:10px; padding:10px; ">
+          <p style="font-size:18px;">{{ .Params.Service }}</p>
+          <div style="font-size:20px;"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+          <div style="color:grey; font-size:16px;">{{ dateFormat "January 2, 2006" .Date }}</div>
+        </div>
+      </li>
+    {{ end }}
+  {{ end }}
+{{ end }} */}}
