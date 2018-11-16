@@ -3,6 +3,9 @@ label: Mortgages Guide
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: canonical
+  label: Canonical
 - type: include
   name: seo
   label: SEO
