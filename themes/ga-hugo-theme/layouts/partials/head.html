@@ -30,7 +30,7 @@
 {{ end }}
 
 {{ range $key, $value := $.Params }}
-   {{ $.Param $key }} -  {{ $.Param $value }} <br>
+   {{ $key }} -  {{ $value }} <br>
 {{ end }}
 
 {{/* {{ range $key, $value := $.Params.seo }}
