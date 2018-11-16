@@ -29,8 +29,8 @@
   <p>{{ . }}</p>
 {{ end }}
 
-{{ range $key, $value := $.Params.seo }}
-   {{ $key }} -  {{ $value }} <br>
+{{ range $key, $value := $.Params.seo.og }}
+   {{ $key }} - {{ $value }}<br>
 {{ end }}
 
 {{/* {{ range $key, $value := $.Params.seo }}
