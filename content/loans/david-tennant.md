@@ -23,4 +23,6 @@ card = "summary"
 site = "@TotallyMoney"
 
 +++
-Some king of actor. Was Dr Who for a time, but no longer.
+Some king of actor. Was Dr Who for a time, but no longer.  
+  
+Although he is a "Doctor", he is by no means a medical practitioner.
