@@ -7,7 +7,7 @@
   <title>{{ .Page.Title }} - {{ .Site.Title }}</title>
   <meta name="description" content="{{ if isset .Page "description" }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
   {{/* <link rel="canonical" href="{{ if isset .Params "canonical" }}{{ .Params.canonical }}{{ else if and (not (isset .Params "canonical")) (isset .Page "url") }}{{ .Page.URL | absURL }}{{ else }}{{ .Site.BaseURL | absURL }}{{ end }}" /> */}}
-  <link rel="canonical" href="{{ .Page.Permalink | absURL }}" />
+  <link rel="canonical" href="{{ .Page.URL | absURL }}" />
   <!-- Open Graph data -->
   <meta property="og:locale" content="{{ if isset .Params.seo.og "locale" }}{{ .Params.seo.og.locale }}{{ else }}en-GB{{ end }}" />
   <meta property="og:type" content="{{ if isset .Params.seo.og "type" }}{{ .Params.seo.og.type }}{{ else }}article{{ end }}" />
@@ -15,9 +15,9 @@
   <meta property="article:published_time" content="{{ .Page.PublishDate }}" />
   <meta property="article:modified_time" content="{{ .Page.Lastmod }}" />
   <meta property="og:updated_time" content="{{ .Page.Lastmod }}" />
-  <meta property="og:title" content="{{ if isset .Params.seo.og "title" }}{{ .Params.seo.og.title }}{{ else if and (not (isset .Params.seo.og "title")) (isset .Page "title") }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-  <meta property="og:url" content="{{ if isset .Params.seo.og "url" }}{{ .Params.seo.og.url }}{{ else }}{{ .Page.Permalink | absURL }}{{ end }}" />
-  <meta property="og:description" content="{{ if isset .Params.seo.og "description" }}{{ .Params.seo.og.description }}{{ else if and (not (isset .Params.seo.og "description")) (isset .Page "description") }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+  <meta property="og:title" content="{{ if isset .Params.seo.og "title" }}{{ .Params.seo.og.title }}{{ else }}{{ .Page.Title }}{{ end }}" />
+  <meta property="og:url" content="{{ if isset .Params.seo.og "url" }}{{ .Params.seo.og.url }}{{ else }}{{ .Page.URL | absURL }}{{ end }}" />
+  <meta property="og:description" content="{{ if isset .Params.seo.og "description" }}{{ .Params.seo.og.description }}{{ else }}{{ .Page.Description }}{{ end }}" />
   <meta property="og:site_name" content="{{ if isset .Params.seo.og "site_name" }}{{ .Params.seo.og.site_name }}{{ else }}TotallyMoney{{ end }}" />
   {{/* <meta property="og:image" content="{{ if isset .Params "banner_image" }}{{ page.banner_image | absURL }}{{ else }}{{end}}" /> */}}
   {{/* <meta property="og:image:secure_url" content="{{ if isset .Params "banner_image" }}{{ page.banner_image | absURL }}{{ else }}{{end}}" /> */}}
