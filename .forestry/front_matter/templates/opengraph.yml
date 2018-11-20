@@ -15,7 +15,7 @@ fields:
     label: Open Graph Locale
     description: The locale the guide is available in.
     hidden: true
-    default: en-GB
+    default: en_GB
   - type: text
     name: type
     label: Open Graph Type
