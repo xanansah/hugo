@@ -49,6 +49,10 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Credit Cards
+- type: file
+  name: banner_image
+  label: Banner Image
+  description: Banner image for the guide.
 pages:
 - content/credit-cards/nineteen.md
 - content/credit-cards/eighteen.md
