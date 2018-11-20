@@ -4,7 +4,6 @@ author_title = ""
 canonical = ""
 categories = ["Loans"]
 date = "2018-11-20T16:02:41+00:00"
-draft = true
 service = "Loans"
 tags = ["Loans"]
 title = "David Tennant"
