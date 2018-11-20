@@ -23,4 +23,4 @@ card = "summary"
 site = "@TotallyMoney"
 
 +++
-She sings. She also plays the guitar really well.
+She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice.
