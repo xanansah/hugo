@@ -4,7 +4,6 @@ author_title = ""
 canonical = ""
 categories = ["Mortgages"]
 date = "2018-11-20T16:48:22+00:00"
-draft = true
 service = "Mortgages"
 tags = ["Mortgages"]
 title = "Summer Walker"
