@@ -10,7 +10,7 @@ seo:
   twitter:
     card: {{ .seo.twitter.card }}
     site: {{ .seo.twitter.site }}
-canonical: {{ .Canonical }}
+canonical: {{ .canonical }}
 service: "Free Credit Report"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
