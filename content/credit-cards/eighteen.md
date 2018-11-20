@@ -1,6 +1,7 @@
 +++
 author_name = "TotallyMoney"
 author_title = ""
+banner_image = "/uploads/dog.jpeg"
 canonical = ""
 categories = ["Credit Cards"]
 date = "2018-11-16T10:59:08+00:00"
