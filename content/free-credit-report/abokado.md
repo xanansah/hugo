@@ -23,8 +23,10 @@ card = "summary"
 site = "@TotallyMoney"
 
 +++
-Welcome to Abokado, a place to enjoy food that makes you feel great.  
-  
+Welcome to Abokado, a place to enjoy food that makes you feel great.
+
 We're on a mission to lead happier and healthier lives.
 
 Are you on board?
+
+abokado.com
