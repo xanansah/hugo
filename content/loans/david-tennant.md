@@ -8,7 +8,6 @@ service = "Loans"
 tags = ["Loans"]
 title = "David Tennant"
 [seo.og]
-url = ""
 description = ""
 image_alt = ""
 image_height = ""
@@ -19,12 +18,13 @@ locale = "en_GB"
 site_name = "TotallyMoney"
 title = ""
 type = "article"
+url = ""
 [seo.twitter]
 card = "summary"
 site = "@TotallyMoney"
 
 +++
-Some king of actor. Was Doctor Who for a time, but no longer.
+Some kind of actor. Was Doctor Who for a time, but no longer.
 
 Although he is a "Doctor", he is by no means a medical practitioner.
 
