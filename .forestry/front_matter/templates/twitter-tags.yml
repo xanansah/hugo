@@ -14,7 +14,7 @@ fields:
     label: Twitter Card
     description: The card type, which will be one of “summary”, “summary_large_image”,
       “app”, or “player”.
-    default: summary
+    default: summary_large
   - type: text
     label: Twitter Site
     name: site
