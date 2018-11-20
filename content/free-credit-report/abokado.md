@@ -3,13 +3,12 @@ author_name = "TotallyMoney"
 author_title = ""
 canonical = ""
 categories = ["Credit Report"]
-date = "2018-11-16T13:26:35+00:00"
-draft = true
+date = "2018-11-20T14:00:58+00:00"
 service = "Credit Report"
 tags = ["Credit Report"]
-title = "The Mildred Snitzer Orchestra"
+title = "Abokado"
 [seo.og]
-description = "Jeff Goldblum and his Orchestra do some jazz music. Sarah Silverman is there too for some reason."
+description = "Feel great food."
 image_alt = ""
 image_height = ""
 image_secure_url = ""
@@ -17,11 +16,15 @@ image_type = ""
 image_width = ""
 locale = "en-GB"
 site_name = "TotallyMoney"
-title = "Jeff Goldblum Does Jazz"
+title = "Great Abokado Chicken Katsu Curry"
 type = "article"
 [seo.twitter]
 card = "summary"
 site = "@TotallyMoney"
 
 +++
-I am Jeff Goldblum. I was in The Fly. In that film I was a man that became a fly.
+Welcome to Abokado, a place to enjoy food that makes you feel great.  
+  
+We're on a mission to lead happier and healthier lives.
+
+Are you on board?
