@@ -14,6 +14,7 @@ canonical: {{ .Canonical }}
 service: "Free Credit Report"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: {{ .Lastmod }}
 author_name: "TotallyMoney"
 author_title: ""
 categories: [ "Credit Report" ]
