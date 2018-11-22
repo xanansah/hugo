@@ -50,6 +50,7 @@ fields:
   default:
   - Mortgages
 pages:
+- content/mortgages/jbj.md
 - content/mortgages/summer-walker.md
 - content/mortgages/jenna.md
 - content/mortgages/kigali.md
