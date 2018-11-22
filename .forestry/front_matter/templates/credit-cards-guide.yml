@@ -54,6 +54,7 @@ fields:
   label: Banner Image
   description: Banner image for the guide.
 pages:
+- content/credit-cards/twenty-one.md
 - content/credit-cards/twenty.md
 - content/credit-cards/nineteen.md
 - content/credit-cards/eighteen.md
