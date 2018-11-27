@@ -49,9 +49,14 @@ fields:
   description: The tags relevant to this guide.
   default:
   - Credit Report
+- type: textarea
+  name: robotstxt
+  label: Robots.Txt
+  description: Inform the web robot about which areas of the website should not be
+    processed or scanned.
 pages:
-- content/free-credit-report/free-credit.md
-- content/free-credit-report/lianne-la-havas.md
 - content/free-credit-report/abokado.md
-- content/free-credit-report/the-mildred-snitzer-orchestra.md
+- content/free-credit-report/lianne-la-havas.md
 - content/free-credit-report/cabbage.md
+- content/free-credit-report/the-mildred-snitzer-orchestra.md
+- content/free-credit-report/free-credit.md
