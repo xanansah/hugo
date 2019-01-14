@@ -4,6 +4,7 @@ author_title = ""
 canonical = ""
 categories = ["Credit Report"]
 date = "2018-11-20T15:18:08+00:00"
+robotstxt = ""
 service = "Credit Report"
 tags = ["Credit Report"]
 title = "Lianne La Havas"
@@ -23,4 +24,4 @@ card = "summary"
 site = "@TotallyMoney"
 
 +++
-She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented.
+She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented. Where is her new music?
