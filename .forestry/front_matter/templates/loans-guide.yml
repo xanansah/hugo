@@ -50,8 +50,9 @@ fields:
   default:
   - Loans
 pages:
-- content/loans/david-tennant.md
-- content/loans/horse.md
-- content/loans/glass.md
-- content/loans/mike.md
 - content/loans/lima.md
+- content/loans/david-tennant.md
+- content/loans/mike.md
+- content/loans/new-loans.md
+- content/loans/glass.md
+- content/loans/horse.md

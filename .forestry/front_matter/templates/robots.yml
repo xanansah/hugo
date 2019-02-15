@@ -1,0 +1,16 @@
+---
+label: Robots
+hide_body: false
+is_partial: true
+display_field: robots
+fields:
+- type: field_group
+  name: robots
+  label: Robots
+  fields:
+  - type: boolean
+    name: no_index
+    label: No Index
+  - type: boolean
+    name: no_follow
+    label: 'No Follow '
