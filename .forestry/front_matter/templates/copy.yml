@@ -1,0 +1,7 @@
+---
+label: Copy
+hide_body: false
+fields:
+- type: textarea
+  name: text
+  label: text
