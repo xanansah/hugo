@@ -1,7 +1,6 @@
 ---
 label: Mortgages Guide
 hide_body: false
-is_partial: false
 fields:
 - type: text
   description: Search engine friendly URL. The URL that you want visitors to see.
@@ -50,7 +49,7 @@ fields:
   default:
   - Mortgages
 pages:
-- content/mortgages/summer-walker.md
-- content/mortgages/kigali.md
-- content/mortgages/jenna.md
 - content/mortgages/jbj.md
+- content/mortgages/summer-walker.md
+- content/mortgages/jenna.md
+- content/mortgages/kigali.md

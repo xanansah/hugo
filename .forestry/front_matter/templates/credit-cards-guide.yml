@@ -1,7 +1,6 @@
 ---
 label: Credit Cards Guide
 hide_body: false
-is_partial: false
 fields:
 - type: text
   description: Search engine friendly URL. The URL that you want visitors to see.
@@ -54,9 +53,9 @@ fields:
   label: Banner Image
   description: Banner image for the guide.
 pages:
-- content/credit-cards/sixteen.md
-- content/credit-cards/twenty.md
 - content/credit-cards/hubjhb.md
-- content/credit-cards/eighteen.md
-- content/credit-cards/nineteen.md
 - content/credit-cards/twenty-one.md
+- content/credit-cards/twenty.md
+- content/credit-cards/nineteen.md
+- content/credit-cards/eighteen.md
+- content/credit-cards/sixteen.md

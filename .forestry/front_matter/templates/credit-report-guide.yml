@@ -1,7 +1,6 @@
 ---
 label: Credit Report Guide
 hide_body: false
-is_partial: false
 fields:
 - type: text
   description: Search engine friendly URL. The URL that you want visitors to see.
@@ -54,9 +53,17 @@ fields:
   label: Robots.Txt
   description: Inform the web robot about which areas of the website should not be
     processed or scanned.
+- type: textarea
+  name: copy
+  label: Copy
+  description: This is where the copy goes
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
-- content/free-credit-report/abokado.md
-- content/free-credit-report/cabbage.md
-- content/free-credit-report/lianne-la-havas.md
-- content/free-credit-report/the-mildred-snitzer-orchestra.md
 - content/free-credit-report/free-credit.md
+- content/free-credit-report/lianne-la-havas.md
+- content/free-credit-report/abokado.md
+- content/free-credit-report/the-mildred-snitzer-orchestra.md
+- content/free-credit-report/cabbage.md
