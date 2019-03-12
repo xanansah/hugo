@@ -53,14 +53,14 @@ fields:
   label: Robots.Txt
   description: Inform the web robot about which areas of the website should not be
     processed or scanned.
-- type: textarea
-  name: copy
-  label: Copy
-  description: This is where the copy goes
+- type: blocks
+  name: copy_1
+  label: copy
   config:
-    wysiwyg: true
-    schema:
-      format: markdown
+    min: '1'
+    max: '5'
+  template_types:
+  - copy
 pages:
 - content/free-credit-report/free-credit.md
 - content/free-credit-report/lianne-la-havas.md
