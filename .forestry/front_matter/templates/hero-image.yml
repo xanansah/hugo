@@ -1,0 +1,17 @@
+---
+label: Hero Image
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: headline
+  label: Headline
+  description: 'The short, emphasised headline of this hero module. '
+- type: file
+  name: background_image
+  label: Background Image
+  description: Full-size hero image displayed behind the headline.
