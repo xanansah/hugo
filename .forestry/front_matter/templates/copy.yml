@@ -1,6 +1,7 @@
 ---
 label: Copy
 hide_body: true
+display_field: copy
 fields:
 - type: textarea
   name: copy
