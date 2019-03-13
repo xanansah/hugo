@@ -25,6 +25,17 @@ site = "@TotallyMoney"
 [[content]]
 copy = "Velit amet quia et dolore quas ut qui. Atque ea qui eum recusandae ea. Dolorum rerum officia sit. Reiciendis blanditiis praesentium sapiente neque voluptatem aliquid placeat. Sit cum pariatur deserunt qui adipisci consequatur aut. Quo qui et quia."
 template = "copy"
+[[modules]]
+copy = "She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented. Where is her new music?"
+template = "copy"
+[[modules]]
+copy = "gShe sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented. Where is her new music?"
+template = "copy"
+[[modules]]
+background_image = "/uploads/dog.jpeg"
+headline = "What's A Good Credit Score"
+template = "hero-image"
+title = "What's A Good Credit Score Hero Image"
 
 +++
 She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented. Where is her new music?
