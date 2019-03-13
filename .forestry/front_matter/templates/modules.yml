@@ -1,0 +1,10 @@
+---
+label: Modules
+hide_body: false
+display_field: modules
+fields:
+- type: blocks
+  name: modules
+  label: Modules
+  template_types:
+  - copy
