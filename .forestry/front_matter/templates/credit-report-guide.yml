@@ -54,8 +54,8 @@ fields:
   description: Inform the web robot about which areas of the website should not be
     processed or scanned.
 - type: blocks
-  name: content
-  label: Content
+  name: modules
+  label: Modules
   config:
     min: '1'
     max: '100'
