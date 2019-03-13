@@ -1,7 +1,12 @@
 ---
 label: Copy
-hide_body: true
+hide_body: false
 fields:
 - type: textarea
-  name: text
-  label: text
+  name: copy
+  label: Copy
+  description: The main textual content of this copy module.
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
