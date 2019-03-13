@@ -22,6 +22,9 @@ type = "article"
 [seo.twitter]
 card = "summary"
 site = "@TotallyMoney"
+[[content]]
+copy = "Velit amet quia et dolore quas ut qui. Atque ea qui eum recusandae ea. Dolorum rerum officia sit. Reiciendis blanditiis praesentium sapiente neque voluptatem aliquid placeat. Sit cum pariatur deserunt qui adipisci consequatur aut. Quo qui et quia."
+template = "copy"
 
 +++
 She sings. She also plays the guitar really well. And she was on Jools Holland once. Or twice. Very talented. Where is her new music?
