@@ -60,6 +60,7 @@ fields:
     min: '1'
     max: '100'
   template_types:
+  - hero-image
   - copy
 pages:
 - content/free-credit-report/free-credit.md
