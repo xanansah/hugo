@@ -56,6 +56,10 @@ fields:
   template: modules
   label: Modules
   name: modules
+- type: include
+  name: ttt
+  label: ttt
+  template: press
 pages:
 - content/credit-cards/hubjhb.md
 - content/credit-cards/twenty-one.md
