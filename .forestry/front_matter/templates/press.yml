@@ -1,0 +1,44 @@
+---
+label: Press
+hide_body: false
+fields:
+- type: field_group
+  name: about_totallymoney
+  label: About TotallyMoney
+  description: TotallyMoney about text
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+    config:
+      required: true
+    default: About TotallyMoney
+  - type: textarea
+    name: copy
+    label: Copy
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    default: <a href="[https://www.totallymoney.com/](https://www.totallymoney.com/
+      ">TotallyMoney</a> has been championing fairer and better consumer credit since
+      2007 by helping customers make smart borrowing decisions. We won Best Free Credit
+      Report Provider in the 2018 Moneynet Personal Finance Awards and since its launch
+      in 2017 our Free Credit Report has already put more than one million customers
+      in control of their credit data.
+- type: image_gallery
+  name: assets
+  label: Assets
+- type: field_group_list
+- type: field_group_list
+  name: d
+  label: d
+  description: vfvf
+  config:
+    min: '1'
+    max: '5'
+  fields:
+  - type: text
+    name: heading
+    label: heading
