@@ -11,4 +11,3 @@ about_totallymoney:
 draft: true
 
 ---
-Credit Cards Guides
