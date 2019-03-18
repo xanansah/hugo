@@ -2,6 +2,29 @@
 label: Press
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: title
+  default: 'Revealed: what goes into a credit score'
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+  default: With the launch of Credit Awareness Week, credit experts TotallyMoney reveal
+    exactly <a href="https://74n5c4m7.r.eu-west-1.awstrack.me/L0/https:%2F%2Fwww.totallymoney.com%2Ffree-credit-report%2Fyour-credit-score-explained%2F/1/0102016971e9474b-52280173-45a6-4b94-8ce8-824b5b0dd9e2-000000/syuCTUo_v68sMVo4fXEIMEp-CfY=100">what
+    goes into credit scores</a> and how they’re calculated, allowing customers to
+    understand better the reasons for any changes to them.
+- type: blocks
+  name: body
+  label: body
+  config:
+    min: '1'
+    max: '100'
+  template_types:
+  - copy
 - type: field_group
   name: about_totallymoney
   label: About TotallyMoney
@@ -30,15 +53,3 @@ fields:
 - type: image_gallery
   name: assets
   label: Assets
-- type: field_group_list
-- type: field_group_list
-  name: d
-  label: d
-  description: vfvf
-  config:
-    min: '1'
-    max: '5'
-  fields:
-  - type: text
-    name: heading
-    label: heading
