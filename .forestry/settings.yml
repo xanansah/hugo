@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: https://webhook.site/d1a75e08-3d77-4005-a652-ac86c82df6ab
 sections:
+- type: document
+  path: content/index.html
+  label: Home
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
