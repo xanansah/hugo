@@ -9,6 +9,8 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Guides
 - type: directory
   path: content/free-credit-report
   label: Free Credit Report
